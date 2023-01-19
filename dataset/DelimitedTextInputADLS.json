@@ -1,0 +1,22 @@
+{
+	"name": "DelimitedTextInputADLS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorageLA",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

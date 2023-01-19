@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-custstgacct--bhanusynapse94-bhanuadls94",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/417c778c-1e8c-49a0-b259-57747bbadc51/resourceGroups/Day4RG/providers/Microsoft.Storage/storageAccounts/bhanuadls94",
+		"groupId": "dfs",
+		"fqdns": [
+			"bhanuadls94.dfs.core.windows.net"
+		]
+	}
+}
